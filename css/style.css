@@ -1,0 +1,89 @@
+
+html{
+    background-image: url(../img/imgur_com.jpg); /* 画像のパスを指定 */
+    background-size: cover; /* 画像を全体にフィットさせる */
+    background-repeat: no-repeat; /* 画像の繰り返しを防ぐ */
+    background-position: center; /* 画像の位置を中央に */
+    background-color:rgba(255,255,255,0.4);
+    background-blend-mode:lighten;
+    margin: 0; /* ページの余白をなくす */
+    height: 100vh; /* ビューポートの高さを設定 */
+}
+
+body{
+    font-size:16px;
+    line-height: 1.5;
+    color:#424242;    
+    font-family: 'Roboto', "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic,'Meiryo UI',Meiryo,"ＭＳ ゴシック",Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.outer{
+    padding: 80px 0;
+}
+.text-center{
+    text-align: center;
+}
+.page-title{
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px;
+}
+
+.janken{
+    width: 100%;
+    text-align: center;
+}
+
+.jankenimg{
+    height: 550px;
+}
+
+.box{
+    /* display: flex;
+    justify-content: space-between; */
+    width: 640px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.box-item{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+}
+.box-title{
+    width: 300px;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-control{
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #296ed7;
+    box-shadow:0 4px 0 #0a3069;
+    margin-left: 8px;
+    padding: 8px 16px;
+    font-size: 30px;
+}
+
+.form-control:hover{
+    background-color: red;
+    box-shadow:0 4px 0 rgb(103, 0, 0);
+}
+
+.text-centerresult{
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
